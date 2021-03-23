@@ -1,0 +1,74 @@
+
+.some-page-wrapper {
+  margin: 15px;
+  
+  width: 1200px;
+  height: 900px;
+}
+body{
+  margin:0;
+
+}
+.container {
+  width: 1200px;
+  height: 900px;
+  color : #fff;
+  border: 2px solid black;
+  display: flex;
+  background-color: grey;
+  
+
+  
+}
+.row {
+  display: flex;
+  
+  
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.col2{
+  display: flex;
+  flex-direction: column;
+}
+.first {
+  background-color: greenyellow;
+  
+  width: 393px ;
+  height: 280px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  
+  
+   
+}
+.second {
+  background-color: blue;
+  width: 393px ;
+  height: 580px ;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.third {
+  background-color: green;
+  width: 393px;
+  margin-right: 0;
+  margin-left:20px
+ 
+}
+.fourth {
+  background-color: yellow;
+  width: 393px ;
+  height: 280px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.fifth {
+  background-color: red;
+  width: 786px ;
+  height: 280px;
+  margin-top: 240px;
+  margin-right: 20px;
+}
